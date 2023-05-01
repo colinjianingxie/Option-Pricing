@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a001a09a-d77c-40da-b5cf-3baf8f5001ed}</ProjectGuid>
-    <RootNamespace>GroupB</RootNamespace>
+    <ProjectGuid>{7b1b4a66-b552-47f0-957c-1b7156738771}</ProjectGuid>
+    <RootNamespace>optionpricing</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -70,9 +70,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>C:\local\boost_1_82_0;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
-    <LibraryPath>C:\local\boost_1_82_0;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64)</LibraryPath>
+    <LibraryPath>C:\local\boost_1_82_0;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -131,16 +131,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="financial_instruments\AmericanPerpetualOption.hpp" />
-    <ClInclude Include="financial_instruments\EuropeanOption.hpp" />
-    <ClInclude Include="financial_instruments\Option.hpp" />
-    <ClInclude Include="financial_instruments\OptionConstants.hpp" />
-    <ClInclude Include="financial_instruments\OptionFormulas.hpp" />
-    <ClInclude Include="financial_instruments\OptionManager.hpp" />
-    <ClInclude Include="financial_instruments\OptionParameter.hpp" />
-    <ClInclude Include="utils\Print.hpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="financial_instruments\AmericanPerpetualOption.cpp" />
     <ClCompile Include="financial_instruments\EuropeanOption.cpp" />
     <ClCompile Include="financial_instruments\Option.cpp" />
@@ -149,6 +139,16 @@
     <ClCompile Include="financial_instruments\OptionParameter.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="utils\Print.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="financial_instruments\AmericanPerpetualOption.hpp" />
+    <ClInclude Include="financial_instruments\EuropeanOption.hpp" />
+    <ClInclude Include="financial_instruments\Option.hpp" />
+    <ClInclude Include="financial_instruments\OptionConstants.hpp" />
+    <ClInclude Include="financial_instruments\OptionFormulas.hpp" />
+    <ClInclude Include="financial_instruments\OptionManager.hpp" />
+    <ClInclude Include="financial_instruments\OptionParameter.hpp" />
+    <ClInclude Include="utils\Print.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

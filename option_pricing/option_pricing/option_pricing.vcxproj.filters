@@ -15,6 +15,35 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="financial_instruments\OptionParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="financial_instruments\OptionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="financial_instruments\OptionFormulas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="financial_instruments\Option.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="financial_instruments\EuropeanOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="financial_instruments\AmericanPerpetualOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\Print.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="financial_instruments\OptionParameter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -36,34 +65,5 @@
     <ClInclude Include="financial_instruments\AmericanPerpetualOption.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="utils\Print.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="financial_instruments\OptionParameter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="financial_instruments\OptionManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="financial_instruments\OptionFormulas.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="financial_instruments\Option.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="financial_instruments\EuropeanOption.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="financial_instruments\AmericanPerpetualOption.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="utils\Print.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

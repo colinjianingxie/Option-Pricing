@@ -1,5 +1,4 @@
 /*
-	Assignment: Group B
 	Date: 4/19/2023
 	Author: Colin Xie
 
