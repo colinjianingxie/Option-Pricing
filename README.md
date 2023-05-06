@@ -6,7 +6,7 @@
     .
     ├── financial_instruments                 # Source files for computing Options
     |   └── OptionConstants.hpp               # Holds all of the Option Constants
-    |   └── Option.(hpp/cpp)	 				        # Abstract Base class of all Options
+    |   └── Option.(hpp/cpp)                  # Abstract Base class of all Options
     |   └── EuropeanOption.(hpp/cpp)          # European Option
     |   └── AmericanPerpetualOption.(hpp/cpp) # American Option
     |   └── OptionManager.(hpp/cpp)           # Manager for Option functionalities
